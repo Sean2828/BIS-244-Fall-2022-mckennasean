@@ -1,4 +1,6 @@
 setwd("~/BIS 244/BIS-244-Fall-2022-mckennasean/covid-19-data")
+#correct way to read csv for future reference
+state <- read.csv(here("covid-19-data","us-states.csv")) 
 state <- read.csv("us-states.csv")
 View(state)
 library(tidyverse)
